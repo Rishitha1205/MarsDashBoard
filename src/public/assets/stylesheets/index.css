@@ -1,0 +1,133 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Times New Roman', Times, serif;
+  min-height: 100vh;
+  background-color: aquamarine;
+  
+}
+.btn {
+  padding: 15px ;
+  font-size: 1.3em;
+  letter-spacing: 0.1em;
+  text-align: center;
+  font-weight: 600;
+  margin: 20px 20px 20px;
+  background-color:rgb(117, 143, 192);
+  border: 2px solid rgb(7, 7, 7);
+  border-radius: 5px;
+  color: #0e0d0d;
+  border-radius:20px;
+  width: 30%;
+}
+
+
+header {
+  text-align: center;
+  background-color: rgb(253, 228, 175);
+  font-weight: bold;
+  padding: 1em;
+  width: 100%;
+}
+h1 {
+  /* header styles */
+  text-align: center;
+  font-size: 50px;
+  color: blueviolet;
+}
+h2 {
+  text-align: left;
+  font-size: 35px;
+  color:chocolate
+}
+p {
+  text-align: left;
+  font-size: 25px;
+  padding: 2px;
+  border: rgb(43, 42, 40);
+  
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+button {
+  size: 20px;
+}
+strong {
+  font-size: 1.5em;
+  }
+img{
+  width: 80%;
+  height: 80%;
+  }
+  
+.btn:hover {
+    cursor: pointer;
+  }
+  
+.btn:active {
+    background:white;
+  }
+  
+figCaption{
+  text-align: center;
+  padding: 1px;
+  margin: 2%;
+  color: rgb(224, 115, 206);
+}
+
+/* -------------------  TABLET  --------------------- */
+@media (min-width: 768px) {
+  /* use mobile */
+
+  img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  }
+
+
+
+/* -------------------  DESKTOP  -------------------- */
+
+@media (min-width: 1224px) {
+  /* use mobile */
+  img {
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+
+/* -------------------  LARGE SCREENS  -------------- */
+
+@media (min-width: 1824px) {
+  /* use mobile */
+  img {
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+@media (max-width: 520px) {
+  /* use mobile */
+  
+.btn{
+  font-size: 0.6em;
+}
+}
